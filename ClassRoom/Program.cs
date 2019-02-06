@@ -31,9 +31,13 @@ namespace ClassRoom
 
 
             Console.WriteLine($"{Mikail}");
-            Console.WriteLine($"{klasseRum.KlasseNavn}");
+            Console.WriteLine(klasseRum.Print());
             Console.WriteLine($"{klasseRum.SemesterStart}");
             Console.ReadLine();
+
+           
         }
+
+       
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Runtime.InteropServices;
 
 namespace ClassRoom
 {
@@ -14,7 +15,11 @@ namespace ClassRoom
         {
         }
 
-      
+        public void Print()
+        {
+            Console.WriteLine($"{KlasseNavn} {Klasseliste} {SemesterStart}");
 
+            
+        }
     }
 }
