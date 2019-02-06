@@ -26,11 +26,11 @@ namespace ClassRoom
 
             klasseRum.SemesterStart = new DateTime(2018,9,4);
 
+            
 
 
 
-
-            Console.WriteLine($"{klasseRum.Klasseliste}");
+            Console.WriteLine($"{Mikail}");
             Console.WriteLine($"{klasseRum.KlasseNavn}");
             Console.WriteLine($"{klasseRum.SemesterStart}");
             Console.ReadLine();
