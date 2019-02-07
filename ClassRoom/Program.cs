@@ -31,8 +31,6 @@ namespace ClassRoom
                 Console.WriteLine($"{mi._navn} {mi._fødselsdag} {mi._fødselsmåned} {klasseRum.Årstid(mi._fødselsmåned)}");
             }
 
-
-
             Console.WriteLine("-------------------");
 
             var vinter = klasseRum.KlasseListe
@@ -58,9 +56,6 @@ namespace ClassRoom
                                      || studerende._fødselsmåned == 10
                                      || studerende._fødselsmåned == 11);
             Console.WriteLine($"Efterår: {forår}");
-
-
-
 
             Console.ReadLine();
         }

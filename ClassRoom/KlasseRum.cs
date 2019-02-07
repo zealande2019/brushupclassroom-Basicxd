@@ -40,20 +40,5 @@ namespace ClassRoom
             }
             return "WRONG";
         }
-
-
-
-
-
-
-
-        //public void Print()
-        //{
-        //    foreach (var mi in _student)
-        //    {
-        //        Console.WriteLine(mi);
-        //    }
-        //}
-
     }
 }
